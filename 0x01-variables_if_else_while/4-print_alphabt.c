@@ -6,16 +6,12 @@
 #include <stdio.h>
 int main(void)
 {
-int i, j, l = 97;
-for (j = 0 ; j < 2 ; j++)
-{
+int i, l = 97;
 for (i = 0 ; i < 26 ; i++)
 {
 putchar(l);
 l++;
 }
 putchar('\n');
-l = 65;
-}
 return (0);
 }
