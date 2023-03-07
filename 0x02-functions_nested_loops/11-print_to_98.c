@@ -10,7 +10,7 @@ void print_to_98(int n)
 int h;
 if (n > 98)
 {
-	h = n
+	h = n;
 	while (h > 98)
 	{
 		printf("%d, ", h);
