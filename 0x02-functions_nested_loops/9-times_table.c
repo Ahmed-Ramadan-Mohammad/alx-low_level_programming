@@ -25,7 +25,6 @@ for (x = 0; x <= 9; x++)
 		else if (z <= 9)
 		{
 			_putchar(32);
-			_putchar(32);
 			_putchar(48 + z);
 			_putchar(',');
 		}
