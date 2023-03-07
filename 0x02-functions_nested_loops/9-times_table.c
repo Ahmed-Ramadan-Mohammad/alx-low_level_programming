@@ -15,16 +15,18 @@ for (x = 0; x <= 9; x++)
 		{
 			u = z % 10;
 			d = (z - u) / 10;
-			_putchar(32);
 			_putchar(48 + d);
 			_putchar(48 + u);
 			_putchar(',');
+			_putchar(32);
+			_putchar(32);
 		}
 		else
 		{
-			_putchar(32);
 			_putchar(48 + z);
 			_putchar(',');
+			_putchar(32);
+			_putchar(32);
 		}
 	}
 	_putchar('\n');
