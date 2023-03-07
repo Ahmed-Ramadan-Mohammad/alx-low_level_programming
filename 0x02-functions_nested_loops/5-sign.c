@@ -6,7 +6,7 @@
  * @n: the number checked
  * Return: + if positve - if negative 0 if zero
  */
-int print_sign(int n);
+int print_sign(int n)
 {
 int r;
 if (n > 0)
