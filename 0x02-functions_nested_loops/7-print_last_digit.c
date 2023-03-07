@@ -18,5 +18,6 @@ else if (n < 0)
 	r = -1 * n;
 	r = r % 10;
 }
+_putchar(r + 48);
 return (r);
 }
